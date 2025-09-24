@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmarks</title>
+    <link rel="stylesheet" href="../CSS/projet.css">
+    <link rel="stylesheet" href="../CSS/landmark.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-flex">
+      <!-- Left: Photo -->
+      <img class="top-left-photo" src="../Bilder/Cali.webp" alt="California State Flag">
+    
+      <!-- Middle: Headline -->
+      <h1 class="header-text">Landmarks</h1>
+    
+      <!-- Right: Menu -->
+      <div class="header-menu dropdown">
+        <button class="header-btn" onclick="toggleMenu()">Menu</button>
+        <nav class="dropdown-content" id="menuLinks">
+          <a href="Englishprojet.html">Home</a>
+          <a href="aboutcali.html">About California</a>
+          <a href="culture.html">Culture</a>
+          <a href="history.html">History</a>
+          <a href="tech.html">Technology</a>
+          <a href="attractions.html">Attractions</a>
+        </nav>
+      </div>
+    </header>
+
+    <p>Discover more about California’s landmarks on this page.</p>
+
+    <h2>Quick Facts</h2>
+    <ul>
+        <li>California is home to many famous landmarks. If its the Golden Gate Bridge and Alcatraz in San Francisco, the Hollywood sign and Universal Studios in LA or Comic Con and the San Diego Zoo in said city, there is always something to see and visit in California.</li>
+        <li>California has the highest number of national parks in the US. It has 9 big parks featuring large and iconic ones such as Yosemite, Death Valley and Joshua Tree. It also contains multiple other parks that may not be as popular, but just as pretty with the Lassen Volcanic and Redwood parks. Not every park is enormous though as Alcatraz Island outside San Francisco is also a national park.</li>
+        <li>Los Angeles is the largest city in California.</li>
+    </ul>
+
+<h2>Photos & Videos</h2>
+<div class="media-grid">
+    <div>
+        <h3>Photos</h3>
+        <img src="../Bilder/photo3.jpg" alt="Santa Monica Pier">
+        <img src="../Bilder/photo4.jpg" alt="Golden Gate Bridge">
+    </div>
+    <div>
+        <h3>Videos</h3>
+        <video src="../Videos/california-tour.mp4" controls width="400">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+    <script>
+    function toggleMenu() {
+      document.getElementById("menuLinks").classList.toggle("active");
+    }
+    </script>
+</body>
+</html>
