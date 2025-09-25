@@ -1,0 +1,50 @@
+/* Photo */
+.top-left-photo {
+  width: 80px;
+  height: auto;
+  flex-shrink: 0; /* Prevent photo from shrinking */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: url('california-hero.jpg') center/cover no-repeat;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 20px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+nav {
+  background: #0f4d92;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #FFB81C;
+  color: white;
+}
