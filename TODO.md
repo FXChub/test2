@@ -1,0 +1,3 @@
+- [x] Fix CSS paths in Landmarks.html
+- [x] Fix CSS path in Englishprojet.html
+- [x] Fix CSS filename in attractions.html
