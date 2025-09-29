@@ -1,3 +1,14 @@
-- [x] Fix CSS paths in Landmarks.html
-- [x] Fix CSS path in Englishprojet.html
-- [x] Fix CSS filename in attractions.html
+-[] remake BB front page
+-[] Flavour site
+-[] Activities site
+-[] About Us
+-[] Make Black Bison site
+-[] Flavour
+-[] Defenetly link
+-[] Activities
+-[] About us
+-[] Bison Corp
+-[] Companies
+-[] Services
+-[] About us
+-[] Trademark everything
