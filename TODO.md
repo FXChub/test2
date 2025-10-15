@@ -17,12 +17,13 @@
     -[] Finish text
         -[x] Finish text for Englishprojet
         -[x] Finish text for about
-        -[] Finish text for culture
+        -[x] Finish text for culture
         -[x] Finish text for food
         -[] Finish text for history
-        -[] Finish text for landmarks
+        -[x] Finish text for landmarks
         -[] Finish text for tech
         -[x] Finish text for attractions
+            -[] Find and write all sources
         
     -[] Finish photos
         -[] Finish photos for Englishprojet
@@ -34,3 +35,8 @@
         -[] Finish photos for tech
     -[] Finish Videos
         -[] Record for "History"
+
+-[] Innlevering Bent
+    -[x] Link til Github
+    -[] PDF med alle krav fra "Krav til dokumentasjon"
+    -[] Video som forklarer en HTML fil og en CSS fil
