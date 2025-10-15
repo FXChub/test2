@@ -18,11 +18,12 @@
         -[x] Finish text for Englishprojet
         -[x] Finish text for about
         -[] Finish text for culture
-        -[] Finish text for food
+        -[x] Finish text for food
         -[] Finish text for history
         -[] Finish text for landmarks
         -[] Finish text for tech
         -[x] Finish text for attractions
+        
     -[] Finish photos
         -[] Finish photos for Englishprojet
         -[] Finish photos for about
@@ -31,3 +32,5 @@
         -[] Finish photos for history
         -[] Finish photos for landmarks
         -[] Finish photos for tech
+    -[] Finish Videos
+        -[] Record for "History"
