@@ -34,9 +34,15 @@
         -[] Finish photos for landmarks
         -[] Finish photos for tech
     -[] Finish Videos
-        -[] Record for "History"
+        -[x] Record for "History"
+        -[] Add vids into "History"
+        -[] Write all sources for Powerpoint info
+        -[x] Write all sources for Powerpoint photo
 
 -[] Innlevering Bent
     -[x] Link til Github
     -[] PDF med alle krav fra "Krav til dokumentasjon"
-    -[] Video som forklarer en HTML fil og en CSS fil
+    -[x] Video som forklarer en HTML fil og en CSS fil
+
+-[] Innlevering Ingunn
+    
