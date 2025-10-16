@@ -50,9 +50,9 @@ footer {
 }
 
 .container {
-  max-width: 1000px;
-  margin-left: 0;
-  margin-right: auto;
+  max-width: 100vw; /* Use full viewport width */
+  width: 100%;
+  margin: 0;
   padding: 0 20px;
   background: transparent;
 }
@@ -76,6 +76,7 @@ footer {
   gap: 20px;
   align-items: flex-end;
   margin-top: 100px; /* Align with the top of the main text */
+  gap: 40px; /* Increase this value for more space */
 }
 
 .side-photos img {
@@ -86,6 +87,7 @@ footer {
 
 .middle-photo {
   display: flex;
+  flex-direction: column; /* Stack images vertically */
   align-items: flex-start;
   justify-content: center;
   margin: 100px 30px 0 30px;
@@ -95,4 +97,8 @@ footer {
   width: 300px; /* Adjust size as needed */
   height: auto;
   border-radius: 8px;
+}
+
+.lower-image {
+  margin-top: 400px; /* Adjust as needed */
 }

@@ -70,7 +70,7 @@ footer {
 }
 
 .side-photos {
-  margin-left: 0; /* Remove left margin */
+  margin-left: 0px; /* Remove left margin */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -86,13 +86,18 @@ footer {
 
 .middle-photo {
   display: flex;
+  flex-direction: column; /* Stack images vertically */
   align-items: flex-start;
   justify-content: center;
-  margin: 100px 30px 0 30px;
+  margin: 100px 30px 0 0px;
 }
 
 .middle-photo img {
   width: 300px; /* Adjust size as needed */
   height: auto;
   border-radius: 8px;
+}
+
+.lower-image {
+  margin-top: 400px; /* Adjust as needed */
 }
