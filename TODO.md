@@ -35,7 +35,7 @@
         -[] Finish photos for tech
     -[] Finish Videos
         -[x] Record for "History"
-        -[] Add vids into "History"
+        -[x] Add vids into "History"
         -[] Write all sources for Powerpoint info
         -[x] Write all sources for Powerpoint photo
 

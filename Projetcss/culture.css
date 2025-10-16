@@ -48,3 +48,51 @@ footer {
   background: #FFB81C;
   color: white;
 }
+
+.container {
+  max-width: 1000px;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0 20px;
+  background: transparent;
+}
+
+.content-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.main-text {
+  flex: 1;
+  min-width: 400px; /* Prevent text from shrinking too much */
+  max-width: 700px;
+}
+
+.side-photos {
+  margin-left: 0; /* Remove left margin */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  margin-top: 100px; /* Align with the top of the main text */
+}
+
+.side-photos img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.middle-photo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 100px 30px 0 30px;
+}
+
+.middle-photo img {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px;
+}
