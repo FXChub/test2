@@ -19,24 +19,34 @@
         -[x] Finish text for about
         -[x] Finish text for culture
         -[x] Finish text for food
-        -[] Finish text for history
+        -[x] Finish text for history
         -[x] Finish text for landmarks
-        -[] Finish text for tech
+        -[x] Finish text for tech
         -[x] Finish text for attractions
             -[] Find and write all sources
         
     -[] Finish photos
-        -[] Finish photos for Englishprojet
-        -[] Finish photos for about
-        -[] Finish photos for culture
+        -[x] Finish photos for Englishprojet
+        -[x] Finish photos for about
+        -[x] Finish photos for culture
         -[] Finish photos for food
-        -[] Finish photos for history
-        -[] Finish photos for landmarks
-        -[] Finish photos for tech
-    -[] Finish Videos
+        -[x] Finish photos for history
+        -[x] Finish photos for landmarks
+        -[x] Finish photos for tech
+        -[] Finish photos for attractions
+            -[] Adjust photos to desired location
+                -[] Projet
+                -[] About
+                -[] Culture
+                -[] Food
+                -[] History
+                -[] Landmarks
+                -[] Tech
+
+    -[x] Finish Videos
         -[x] Record for "History"
         -[x] Add vids into "History"
-        -[] Write all sources for Powerpoint info
+        -[x] Write all sources for Powerpoint info
         -[x] Write all sources for Powerpoint photo
 
 -[] Innlevering Bent
@@ -45,4 +55,5 @@
     -[x] Video som forklarer en HTML fil og en CSS fil
 
 -[] Innlevering Ingunn
-    
+    -[x] Link to website
+    -[] Source list
