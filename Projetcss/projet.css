@@ -93,11 +93,11 @@ footer {
 }
 
 .middle-photo img {
-  width: 300px; /* Adjust size as needed */
+  width: 500px; /* Adjust size as needed */
   height: auto;
   border-radius: 8px;
 }
 
 .lower-image {
-  margin-top: 400px; /* Adjust as needed */
+  margin-top: 150px; /* Adjust as needed */
 }

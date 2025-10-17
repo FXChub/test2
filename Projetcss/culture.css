@@ -70,35 +70,66 @@ footer {
 }
 
 .side-photos {
-  margin-left: 0; /* Remove left margin */
+  margin-left: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: flex-end;
-  margin-top: 100px; /* Align with the top of the main text */
-  gap: 40px; /* Increase this value for more space */
-}
-
-.side-photos img {
-  width: 400px;
-  height: auto;
-  border-radius: 8px;
+  margin-top: 100px;
+  gap: 40px; /* keep the larger gap */
 }
 
 .middle-photo {
   display: flex;
-  flex-direction: column; /* Stack images vertically */
-  align-items: flex-start;
-  justify-content: center;
-  margin: 100px 30px 0 30px;
+  flex-direction: column; /* stack images vertically */
+  gap: 20px;
+  align-items: center;
+  margin-top: 100px; /* adjust to lower/raise the whole column */
 }
 
-.middle-photo img {
-  width: 300px; /* Adjust size as needed */
+.side-photos img {
+  width: 260px;     /* smaller fixed target */
+  max-width: 100%;  /* never exceed container */
   height: auto;
   border-radius: 8px;
 }
 
-.lower-image {
-  margin-top: 400px; /* Adjust as needed */
+.middle-photo img {
+  width: 300px;     /* adjust as needed */
+  max-width: 100%;
+  height: auto;
+}
+
+/* responsive: reduce sizes on narrow screens */
+@media (max-width: 900px) {
+  .side-photos img,
+  .middle-photo img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-row { flex-direction: column; }
+  .side-photos img,
+  .middle-photo img {
+    width: 100%;
+  }
+}
+
+.arch { transform: translateY(250px); }
+.language { transform: translateY(300px); }
+.hiphop { transform: translateY(350px); }
+.divided { transform: translateY(370px); }
+.dream { transform: translateY(410px); }
+
+
+.goldrush { transform: translateY(200px); }
+.dayofthedead { transform: translateY(350px); }
+.museum { transform: translateY(400px); }
+.caliregions { transform: translateY(440px); }
+.landscape { transform: translateY(380px); }
+
+
+/* optional: smooth transitions while tweaking */
+.arch, .language, .hiphop, .divided, .dream, .goldrush, .dayofthedead, .museum, .caliregions, .landscape {
+  transition: transform 0.2s ease;
 }

@@ -13,8 +13,8 @@
 -[] About us
 -[] Trademark everything
 
--[] Finish Projet
-    -[] Finish text
+-[] Finish Project
+    -[x] Finish text
         -[x] Finish text for Englishprojet
         -[x] Finish text for about
         -[x] Finish text for culture
@@ -23,25 +23,27 @@
         -[x] Finish text for landmarks
         -[x] Finish text for tech
         -[x] Finish text for attractions
-            -[] Find and write all sources
+            -[x] Find and write all sources
         
     -[] Finish photos
         -[x] Finish photos for Englishprojet
         -[x] Finish photos for about
         -[x] Finish photos for culture
-        -[] Finish photos for food
+        -[x] Finish photos for food
         -[x] Finish photos for history
         -[x] Finish photos for landmarks
         -[x] Finish photos for tech
-        -[] Finish photos for attractions
+        -[x] Finish photos for attractions
             -[] Adjust photos to desired location
-                -[] Projet
-                -[] About
-                -[] Culture
-                -[] Food
-                -[] History
-                -[] Landmarks
+                -[x] Projet
+                -[x] About
+                -[x] Culture
+                -[x] Food
+                -[x] History
+                -[x] Landmarks
                 -[] Tech
+                -[] Attractions
+    -[x] All photo sources
 
     -[x] Finish Videos
         -[x] Record for "History"
@@ -49,11 +51,12 @@
         -[x] Write all sources for Powerpoint info
         -[x] Write all sources for Powerpoint photo
 
--[] Innlevering Bent
-    -[x] Link til Github
-    -[] PDF med alle krav fra "Krav til dokumentasjon"
-    -[x] Video som forklarer en HTML fil og en CSS fil
+-[] Fullfør innleveringer
+    -[] Innlevering Bent
+        -[x] Link til Github
+        -[] PDF med alle krav fra "Krav til dokumentasjon"
+        -[x] Video som forklarer en HTML fil og en CSS fil
 
--[] Innlevering Ingunn
-    -[x] Link to website
-    -[] Source list
+    -[] Innlevering Ingunn
+        -[x] Link to website
+        -[] Source list
