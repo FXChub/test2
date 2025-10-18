@@ -13,7 +13,7 @@
 -[] About us
 -[] Trademark everything
 
--[] Finish Project
+-[x] Finish Project
     -[x] Finish text
         -[x] Finish text for Englishprojet
         -[x] Finish text for about
@@ -25,7 +25,7 @@
         -[x] Finish text for attractions
             -[x] Find and write all sources
         
-    -[] Finish photos
+    -[x] Finish photos
         -[x] Finish photos for Englishprojet
         -[x] Finish photos for about
         -[x] Finish photos for culture
@@ -34,15 +34,15 @@
         -[x] Finish photos for landmarks
         -[x] Finish photos for tech
         -[x] Finish photos for attractions
-            -[] Adjust photos to desired location
+            -[x] Adjust photos to desired location
                 -[x] Projet
                 -[x] About
                 -[x] Culture
                 -[x] Food
                 -[x] History
                 -[x] Landmarks
-                -[] Tech
-                -[] Attractions
+                -[x] Tech
+                -[x] Attractions
     -[x] All photo sources
 
     -[x] Finish Videos
