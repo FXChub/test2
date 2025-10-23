@@ -1,4 +1,4 @@
--[] remake BB front page
+-[] Make BB front page
 -[] Flavour site
 -[] Activities site
 -[] About Us

@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anton', Helvetica, sans-serif;
+  background-color: #ff6100;
+  min-width: 1440px;
+}
+
+.header {
+  background-color: #ff6100;
+  width: 100%;
+  min-height: 132px;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 31px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-left: 0;   /* Add this line */
+}
+
+.logo {
+  margin-left: 0;   /* Change this */
+  margin-top: -44px; /* Keep if you like the vertical offset */
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 93px;
+}
+
+.nav-item {
+  color: black;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  transform: translateY(-1rem);
+  opacity: 0;
+  animation: fade-in 1s ease forwards;
+}
+
+.nav-item:hover {
+  opacity: 0.8;
+}
+
+.nav-item.home {
+  font-family: 'Bebas Neue', Helvetica, sans-serif;
+  font-size: 48px;
+  animation-delay: 0ms;
+}
+
+.logo {
+  width: 150px;
+  height: 132px;
+  border-radius: 465px;
+  object-fit: cover;
+  margin-left: 98px;
+  margin-top: -44px;
+  transform: translateY(-1rem);
+  opacity: 0;
+  animation: fade-in 1s ease forwards;
+  animation-delay: 200ms;
+}
+
+.nav-item.flavours {
+  animation-delay: 400ms;
+}
+
+.nav-item.activities {
+  animation-delay: 600ms;
+}
+
+.nav-item.about {
+  animation-delay: 800ms;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
