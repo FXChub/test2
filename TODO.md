@@ -51,12 +51,12 @@
         -[x] Write all sources for Powerpoint info
         -[x] Write all sources for Powerpoint photo
 
--[] Fullfør innleveringer
-    -[] Innlevering Bent
+-[x] Fullfør innleveringer
+    -[x] Innlevering Bent
         -[x] Link til Github
-        -[] PDF med alle krav fra "Krav til dokumentasjon"
+        -[x] PDF med alle krav fra "Krav til dokumentasjon"
         -[x] Video som forklarer en HTML fil og en CSS fil
 
-    -[] Innlevering Ingunn
+    -[x] Innlevering Ingunn
         -[x] Link to website
-        -[] Source list
+        -[x] Source list
