@@ -1,82 +1,94 @@
-‹!DOCTYPE html              <!-- Feil tegn: ‹ skal være < -->
-‹html lang="no">           <!-- Feil tegn: ‹ skal være < -->
-<head›                     <!-- Feil tegn: › skal være > -->
-    ‹meta charset="UTF-8"> <!-- Feil tegn -->
-    ‹meta name-"viewport" content-"width-device-width, initial-scale=1.0"›  
-                           <!-- name-"viewport" skal være name="viewport" -->
-                           <!-- content-"width-device-width" skal være content="width=device-width" -->
-Enkel HTML-side med JavaScript</title› <!-- Mangler <title> før tekst -->
-‹style›                    <!-- Feil tegn & mangler avsluttende kommentar /* -->
-    /* Enkel styling for å gjøre siden penere
-body {                     <!-- Mangler */ for kommentaren -->
-    font-family: Arial, sans-seriff margin: 20px; padding: 20px; background-color: #f4f4f4;
-                           <!-- sans-seriff → stavefeil: sans-serif -->
-                           <!-- Semikolon mangler mellom sans-serif; margin -->
-}
-h1 {
-color: #333;
-}
-p{
-    font-size: 18px;
-}
-.result {
-font-weight: bold; 
-color: #007BFF;
-}
+<!DOCTYPE html> <!--Feil tegn: ‹ skal være <-->
+<html lang="no"> <!--Feil tegn: ‹ skal være <-->
+<head> <!--Feil tegn: › skal være >-->
+    <meta charset="UTF-8"> <!--Feil tegn-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- name-"viewport" skal være name="viewport" -->
+    <!-- content-"width-device-width" skal være content="width=device-width" -->
 
-</head›                   <!-- Feil tegn og feil lukking, skal være </head> -->
-‹body>                    <!-- Feil tegn -->
-Velkommen til min enkle nettside!</h1> <!-- Mangler åpning <h1> -->
-<p id= "variable"›Variabel:</p>  <!-- › feil tegn -->
-‹p 1d-"calculation">Utregning:</p> 
-                           <!-- 1d- skal være id= -->
-                           <!-- Feil tegn ‹ -->
-<p-"promptResult">Prompt-resultat:
-                           <!-- p-"promptResult" ugyldig, skal være <p id="promptResult"> -->
-‹p id="array"›Array:</p> <!-- Feil tegn ›
+    <title>Enkel HTML-side med JavaScript</title> <!-- Mangler åpnende tittel-tag -->
 
-‹script›                  <!-- Feil tegn -->
+    <style> <!-- Feil tegn & mangler avsluttende kommentar /* -->
+        /* Enkel styling for å gjøre siden penere */  <!-- Mangler */ tidligere -->
+        body {
+            font-family: Arial, sans-serif; /* sans-seriff → stavefeil */
+            margin: 20px; /* Semikolon manglet */
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+        }
+        .result {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head> <!-- Feil lukking tidligere -->
+
+<body> <!-- Feil tegn i original -->
+
+<h1>Velkommen til min enkle nettside!</h1> <!--Mangler åpnende h1 tag-->
+
+<p id="variable">Variabel:</p> <!-- › feil tegn i original -->
+<p id="calculation">Utregning:</p> <!-- 1d- skulle være id= -->
+<p id="promptResult">Prompt-resultat:</p> <!-- p-"promptResult" var ugyldig -->
+<p id="array">Array:</p> <!-- Feil tegn i original -->
+
+<script> <!-- Feil tegn i original -->
+
 // 1. En variabel
-lett navn = "Hei, jeg har klart det!";
-                           <!-- 'lett' er feil, skal være 'let' -->
-// Viser variabelen på nettsiden
-document.getElementById("variable").innerHTML +=<span class="result"›(navn)</span›';
-                           <!-- Mangler anførselstegn rundt string -->
-                           <!-- Bruker ‹ › i span -->
-                           <!-- (navn) vil ikke evalueres uten ${navn} -->
-                           <!-- Feil plassering av ' -->
+let navn = "Hei, jeg har klart det!"; 
+// 'lett' er feil, skal være 'let'
 
-// 2.En utregning av to tall
-let tall1 = ti;            <!-- 'ti' er tekst, mangler anførselstegn eller tall 10 -->
+// Viser variabelen på nettsiden
+document.getElementById("variable").innerHTML += 
+    `<span class="result">${navn}</span>`; 
+// Manglet anførselstegn, brukte ‹ ›, feil strengbygging
+
+// 2. En utregning av to tall
+let tall1 = 10; // 'ti' er tekst, manglet anførselstegn eller tall 10
 let tall2 = 20;
-let sum = tall1 + tall2;   // OK
+let sum = tall1 + tall2;
+
 // Viser utregningen på nettsiden
-document.getElementById("calculation").innerHTML +="<span class="result">("+tall1+") + ("+tall2+") = ("+sum+")</span>";l
-                           <!-- Anførselstegn inne i anførselstegn er feil -->
-                           <!-- Ekstra 'l' på slutten -->
-                           <!-- mangler escaping eller backticks -->
+document.getElementById("calculation").innerHTML += 
+    `<span class="result">(${tall1}) + (${tall2}) = (${sum})</span>`;
+// Anførselstegn inne i anførselstegn var feil
+// Ekstra l på slutten
+// Manglet backticks
 
 // 3. En prompt
 let brukerInput = prompt("Hva er favorittfargen din?");
+
 // Viser brukerens input på nettsiden
-document.getElementById("promptResult").innerHTML +="<span class="result">Favorittfargen din er: ${brukerInput}</span>";
-                           <!-- ${brukerInput} fungerer ikke inne i " " -->
-                           <!-- Må bruke backticks -->
+document.getElementById("promptResult").innerHTML += 
+    `<span class="result">Favorittfargen din er: ${brukerInput}</span>`;
+// ${brukerInput} fungerte ikke uten backticks
 
 //4. En funksjon
-Funksjon multipliser (a, b) {
-                           <!-- 'Funksjon' er feil, skal være 'function' -->
-    return a * b; 
+function multipliser(a, b) { 
+    // 'Funksjon' er feil, skal være 'function'
+    return a * b;
 }
-let produkt = multipliser (5, 3);
-// Viser resultatet
-document.getElementById("calculation").innerHTML +=`<br> 5 * 3 = <span class="result">${produkt}</span>`;
+
+let produkt = multipliser(5, 3);
+
+// Viser resultatet av funksjonen på nettsiden
+document.getElementById("calculation").innerHTML += 
+    `<br> 5 * 3 = <span class="result">${produkt}</span>`;
 
 // 5. Et array
 let frukter = ["Eple", "Banan", "Appelsin", "Druer"];
+
 // Viser arratet på nettsiden
-                           <!-- 'arratet' stavefeil: arrayet -->
-document.getElementById("array").innerHTML +=`<span class="result">${frukter.join(", ")}</span>`;
-</script>                 <!-- Feil tegn -->
-</body>                   <!-- Feil tegn -->
-</html>                   <!-- Feil tegn -->
+// 'arratet' stavefeil: arrayet
+document.getElementById("array").innerHTML += 
+    `<span class="result">${frukter.join(", ")}</span>`;
+
+</script> <!-- Feil tegn i original -->
+</body> <!-- Feil tegn i original -->
+</html> <!-- Feil tegn i original -->

@@ -8,40 +8,44 @@ const skylanders = [
   { name: "Mega Ram Spyro <br> (Series 3)", image : "photos/SwapForce/Spyro3.webp", element: "Magic", game: "Swap Force", type: "Core" },
   { name: "Mega Ram Dark Spyro (Series 3)", image : "photos/SwapForce/DarkSpyro3.webp", element: "Magic", game: "Swap Force", type: "Dark" },
   { name: "Gill Grunt", image : "photos/SpyrosAdventure/GillGrunt.webp", element: "Water", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Gill Grunt", image : "photos/Trap Team/EliteGillGrunt.webp", element: "Water", game: "Trap Team", type: "Eon's Elite" },
   { name: "Gill Grunt (Series 2)", image : "photos/Giants/GillGrunt2.webp", element: "Water", game: "Giants", type: "Core" },
   { name: "Anchors Away Gill Grunt (Series 3)", image : "photos/SwapForce/GillGrunt3.webp", element: "Water", game: "Swap Force", type: "Core" },
   { name: "Tidal Wave Gill Grunt (Series 4)", image : "photos/Trap Team/GillGrunt4.webp", element: "Water", game: "Trap Team", type: "Core" },
-  { name: "Eon's Elite Gill Grunt", image : "photos/Trap Team/EliteGillGrunt.webp", element: "Water", game: "Trap Team", type: "Eon's Elite" },
   { name: "Deep Dive Gill Grunt", image : "photos/Superchargers/DeepGillGrunt.webp", element: "Water", game: "SuperChargers", type: "SuperCharger" },
   { name: "Trigger Happy", image : "photos/SpyrosAdventure/TriggerHappy.jpg", element: "Tech", game: "Spyro's Adventure", type: "Core" },
+  {name: "Eon's Elite Trigger Happy", image : "photos/Trap Team/", element: "Tech", game: "Trap Team", type: "Eon's Elite" },
   { name: "Legendary Trigger Happy", image : "photos/SpyrosAdventure/LegendTriggerHappy.webp", element: "Tech", game: "Spyro's Adventure", type: "Legendary" },
   { name: "Trigger Happy (Series 2)", image : "photos/Giants/TriggerHappy2.webp", element: "Tech", game: "Giants", type: "Core" },
   { name: "Big Bang Trigger Happy (Series 3)", image : "photos/SwapForce/TriggerHappy3.webp", element: "Tech", game: "Swap Force", type: "Core" },
   { name: "Springtime Trigger Happy", image : "photos/SwapForce/SpringTriggerHappy.webp", element: "Tech", game: "Swap Force", type: "Core" },
   { name: "Double Dare Trigger Happy", image : "photos/Superchargers/DoubleTriggerHappy.webp", element: "Tech", game: "SuperChargers", type: "SuperCharger" },
   { name: "Stealth Elf", image : "photos/SpyrosAdventure/StealthElf.webp", element: "Life", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Stealth Elf", image : "photos/Trap Team/EliteStealthElf.webp", element: "Life", game: "Trap Team", type: "Eon's Elite" },
   { name: "Stealth Elf (Series 2)", image : "photos/Giants/StealthElf2.jpg", element: "Life", game: "Giants", type: "Core" },
   { name: "Legendary Stealth Elf (Series 2)", image : "photos/Giants/LegendStealthElf.webp", element: "Life", game: "Giants", type: "Legendary" },
   { name: "Ninja Stealth Elf (Series 3)", image : "photos/SwapForce/StealthElf3.webp", element: "Life", game: "Swap Force", type: "Core" },
-  { name: "Eon's Elite Stealth Elf", image : "photos/Trap Team/EliteStealthElf.webp", element: "Life", game: "Trap Team", type: "Eon's Elite" },
+  { name: "Dark Stealth Elf", element: "Life", game: "Swap Force", type: "Dark" },
   { name: "Super Shot Stealth Elf", image : "photos/Superchargers/SuperStealthElf.jpg", element: "Life", game: "SuperChargers", type: "SuperCharger" },
+  { name: "Dark Super Shot Stealth Elf", image : "photos/Superchargers/", element: "Life", game: "SuperChargers", type: "Dark" },
   { name: "Bash", image: "photos/SpyrosAdventure/Bash.webp", element: "Earth", game: "Spyro's Adventure", type: "Core" },
   { name: "Legendary Bash", image: "photos/SpyrosAdventure/LegendBash.jpg", element: "Earth", game: "Spyro's Adventure", type: "Legendary" },
   { name: "Birthday Bash", image: "photos/Lost Islands/BirthdayBash.webp", element: "Earth", game: "Lost Islands"},
   { name: "Bash (Series 2)", image: "photos/Giants/Bash2.webp", element: "Earth", game: "Giants", type: "Core" },
   { name: "Eruptor", image: "photos/SpyrosAdventure/Eruptor.webp", element: "Fire", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Eruptor", image: "photos/Trap Team/", element: "Fire", game: "Trap Team", type: "Eon's Elite" },
   { name: "Eruptor (Series 2)", image: "photos/Giants/Eruptor2.webp", element: "Fire", game: "Giants", type: "Core" },
   { name: "Lightcore Eruptor <br> (Series 2)", image: "photos/Giants/LCEruptor.webp", element: "Fire", game: "Giants", type: "Lightcore" },
   { name: "Lava Barf Eruptor <br> (Series 3)", image: "photos/SwapForce/Eruptor3.webp", element: "Fire", game: "Swap Force", type: "Core" },
-  { name: " Eon's Elite Eruptor", image: "photos/Trap Team/EliteEruptor.webp", element: "Fire", game: "Trap Team", type: "Eon's Elite" },
+  { name: "Eon's Elite Eruptor", image: "photos/Trap Team/EliteEruptor.webp", element: "Fire", game: "Trap Team", type: "Eon's Elite" },
   { name: "Lava Lance Eruptor", image: "photos/Superchargers/SuperEruptor.webp", element: "Fire", game: "SuperChargers", type: "SuperCharger" },
   { name: "Chop Chop", element: "Undead", game: "Spyro's Adventure", type: "Core" },
   { name: "Legendary Chop Chop", element: "Undead", game: "Spyro's Adventure", type: "Legendary" },
   { name: "Eon's Elite Chop Chop", image: "photos/Trap Team/EliteChopChop.webp", element: "Undead", game: "Trap Team", type: "Eon's Elite" },
   { name: "Terrafin", image: "photos/SpyrosAdventure/Terrafin.webp", element: "Earth", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Terrafin", image: "photos/Trap Team/EliteTerrafin.webp", element: "Earth", game: "Trap Team", type: "Eon's Elite" },
   { name: "Terrafin (Series 2)", image: "photos/Giants/Terrafin2.webp", element: "Earth", game: "Giants", type: "Core" },
   { name: "Knockout Terrafin (Series 3)", image: "photos/SwapForce/Terrafin3.webp", element: "Earth", game: "Swap Force", type: "Core" },
-  { name: "Eon's Elite Terrafin", image: "photos/Trap Team/EliteTerrafin.webp", element: "Earth", game: "Trap Team", type: "Eon's Elite" },
   { name: "Shark Shooter Terrafin", image: "photos/Superchargers/SuperTerrafin.jpg", element: "Earth", game: "SuperChargers", type: "SuperCharger" },
   { name: "Lightning Rod", element: "Air", game: "Spyro's Adventure", type: "Core" },
   { name: "Ignitor", element: "Fire", game: "Spyro's Adventure", type: "Core" },
@@ -51,18 +55,26 @@ const skylanders = [
   { name: "Flameslinger", element: "Fire", game: "Spyro's Adventure", type: "Core" },
   { name: "Wrecking Ball", element: "Magic", game: "Spyro's Adventure", type: "Core" },
   { name: "Voodood", element: "Magic", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Voodood", element: "Magic", game: "Eon's Elite", type: "Eon's Elite" },
   { name: "Prism Break", element: "Earth", game: "Spyro's Adventure", type: "Core" },
   { name: "Zap", element: "Water", game: "Spyro's Adventure", type: "Core" },
   { name: "Drobot", element: "Tech", game: "Spyro's Adventure", type: "Core" },
   { name: "Stump Smash", element: "Life", game: "Spyro's Adventure", type: "Core" },
   { name: "Hex", element: "Undead", game: "Spyro's Adventure", type: "Core" },
   { name: "Dino-Rang", element: "Earth", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Dino-Rang", image : "photos/Superchargers/", element: "Earth", game: "SuperChargers", type: "Eon's Elite" },
   { name: "Whirlwind", element: "Air", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Whirlwind", image : "photos/Trap Team/", element: "Air", game: "Trap Team", type: "Eon's Elite" },
   { name: "Double Trouble", element: "Magic", game: "Spyro's Adventure", type: "Core" },
   { name: "Slam Bam", element: "Water", game: "Spyro's Adventure", type: "Core" },
+  { name: "Legendary Slam Bam", element: "Water", game: "Legendary", type: "Legendary" },
+  { name: "Eon's Elite Slam Bam", element: "Water", game: "Eon's Elite", type: "Eon's Elite" },
   { name: "Boomer", element: "Tech", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Boomer", image : "photos/Superchargers/", element: "Tech", game: "SuperChargers", type: "Eon's Elite" },
   { name: "Zook", element: "Life", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Zook", image : "photos/Superchargers/", element: "Life", game: "SuperChargers", type: "Eon's Elite" },
   { name: "Ghost Roaster", element: "Undead", game: "Spyro's Adventure", type: "Core" },
+  { name: "Eon's Elite Ghost Roaster", image : "photos/Superchargers/", element: "Undead", game: "SuperChargers", type: "Eon's Elite" },
   { name: "Camo", element: "Life", game: "Spyro's Adventure", type: "Core" },
   { name: "Warnado", element: "Air", game: "Spyro's Adventure", type: "Core" },
   { name: "Drill Sergeant", element: "Tech", game: "Spyro's Adventure", type: "Core" },
@@ -98,8 +110,6 @@ const skylanders = [
   
   // Giants - Legendary
   { name: "Legendary Bouncer", element: "Tech", game: "Legendary", type: "Legendary" },
-  { name: "Legendary Stealth Elf", element: "Life", game: "Legendary", type: "Legendary" },
-  { name: "Legendary Slam Bam", element: "Water", game: "Legendary", type: "Legendary" },
   { name: "Legendary Jet-Vac", element: "Air", game: "Legendary", type: "Legendary" },
   { name: "Legendary Ignitor", element: "Fire", game: "Legendary", type: "Legendary" },
   { name: "Legendary Chill", element: "Water", game: "Legendary", type: "Legendary" },
@@ -116,7 +126,9 @@ const skylanders = [
 
   // Swap Force (2013) - 16 Swap Force + Cores
   { name: "Wash Buckler", element: "Water", game: "Swap Force", type: "Swap Force" },
+  { name: "Dark Wash Buckler", element: "Water", game: "Swap Force", type: "Dark" },
   { name: "Blast Zone", element: "Fire", game: "Swap Force", type: "Swap Force" },
+  { name: "Dark Blast Zone", element: "Fire", game: "Swap Force", type: "Dark" },
   { name: "Magna Charge", element: "Tech", game: "Swap Force", type: "Swap Force" },
   { name: "Rattle Shake", element: "Undead", game: "Swap Force", type: "Swap Force" },
   { name: "Free Ranger", element: "Air", game: "Swap Force", type: "Swap Force" },
@@ -159,20 +171,17 @@ const skylanders = [
   { name: "Legendary Free Ranger", element: "Air", game: "Legendary", type: "Legendary" },
   { name: "Legendary Night Shift", element: "Undead", game: "Legendary", type: "Legendary" },
   { name: "Legendary Zoo Lou", element: "Life", game: "Legendary", type: "Legendary" },
-  { name: "Legendary Magna Charge", element: "Tech", game: "Legendary", type: "Legendary" },
+  { name: "Legendary Magna Charge", element: "Tech", game: "Legendary", type: "Legendary" },  
   
-  // Swap Force - Dark Editions
-  { name: "Dark Slobber Tooth", element: "Earth", game: "Swap Force", type: "Dark" },
-  { name: "Dark Wash Buckler", element: "Water", game: "Swap Force", type: "Dark" },
-  { name: "Dark Blast Zone", element: "Fire", game: "Swap Force", type: "Dark" },
-  { name: "Dark Stealth Elf", element: "Life", game: "Swap Force", type: "Dark" },
   
   // Trap Team (2014) - Trap Masters + Cores + Minis
   { name: "Snap Shot", element: "Water", game: "Trap Team", type: "Trap Master" },
+  { name: "Dark Snap Shot", element: "Water", game: "Trap Team", type: "Dark" },
   { name: "Wallop", element: "Earth", game: "Trap Team", type: "Trap Master" },
   { name: "Head Rush", element: "Air", game: "Trap Team", type: "Trap Master" },
   { name: "Krypt King", element: "Undead", game: "Trap Team", type: "Trap Master" },
   { name: "Wildfire", element: "Fire", game: "Trap Team", type: "Trap Master" },
+  { name: "Dark Wildfire", element: "Fire", game: "Trap Team", type: "Dark" },
   { name: "Ka-Boom", element: "Fire", game: "Trap Team", type: "Trap Master" },
   { name: "Jawbreaker", element: "Earth", game: "Trap Team", type: "Trap Master" },
   { name: "Blades", element: "Air", game: "Trap Team", type: "Trap Master" },
@@ -204,9 +213,10 @@ const skylanders = [
   { name: "Cobra Cadabra", element: "Magic", game: "Trap Team", type: "Core" },
   { name: "Rocky Roll", element: "Earth", game: "Trap Team", type: "Core" },
   { name: "Slobber Tooth", element: "Earth", game: "Trap Team", type: "Core" },
+  { name: "Dark Slobber Tooth", element: "Earth", game: "Swap Force", type: "Dark" },
   { name: "Trail Blazer", element: "Fire", game: "Trap Team", type: "Core" },
-  { name: "Wildfire", element: "Fire", game: "Trap Team", type: "Core" },
   { name: "Food Fight", element: "Life", game: "Trap Team", type: "Core" },
+  { name: "Dark Food Fight", element: "Life", game: "Trap Team", type: "Dark" },
   { name: "High Five", element: "Life", game: "Trap Team", type: "Core" },
   
   // Trap Team - Minis (Series 2)
@@ -234,19 +244,22 @@ const skylanders = [
   { name: "Legendary Deja Vu", element: "Magic", game: "Trap Team", type: "Legendary" },
   { name: "Legendary Short Cut", element: "Magic", game: "Trap Team", type: "Legendary" },  
   
-  // Trap Team - Dark & Nitro Editions
-  { name: "Dark Snap Shot", element: "Water", game: "Trap Team", type: "Dark" },
-  { name: "Dark Wildfire", element: "Fire", game: "Trap Team", type: "Dark" },
-  { name: "Dark Food Fight", element: "Life", game: "Trap Team", type: "Dark" },
   { name: "Nitro Krypt King", element: "Undead", game: "Trap Team", type: "Nitro" },
   { name: "Nitro Head Rush", element: "Air", game: "Trap Team", type: "Nitro" },
   { name: "Nitro Magna Charge", element: "Tech", game: "Trap Team", type: "Nitro" },
 
   // SuperChargers (2015) - 20 SuperChargers + Variants
   { name: "Spitfire", element: "Fire", game: "SuperChargers", type: "SuperCharger" },
+  { name: "Dark Spitfire", element: "Fire", game: "SuperChargers", type: "Dark" },
   { name: "Hurricane Jet-Vac", element: "Air", game: "SuperChargers", type: "SuperCharger" },
   { name: "Dive-Clops", element: "Water", game: "SuperChargers", type: "SuperCharger" },
-  { name: "Super Shot Stealth Elf", element: "Life", game: "SuperChargers", type: "SuperCharger" },
+
+
+
+
+
+
+
   { name: "Fiesta", element: "Undead", game: "SuperChargers", type: "SuperCharger" },
   { name: "Splat", element: "Magic", game: "SuperChargers", type: "SuperCharger" },
   { name: "Stormblade", element: "Air", game: "SuperChargers", type: "SuperCharger" },
@@ -262,13 +275,12 @@ const skylanders = [
   { name: "High Volt", element: "Tech", game: "SuperChargers", type: "SuperCharger" },
   { name: "Shark Shooter Terrafin", element: "Earth", game: "SuperChargers", type: "SuperCharger" },
   { name: "Turbo Charge Donkey Kong", element: "Tech", game: "SuperChargers", type: "SuperCharger" },
-  { name: "Hammer Slam Bowser", element: "Fire", game: "SuperChargers", type: "SuperCharger" },
-  
-  // SuperChargers - Dark Editions
-  { name: "Dark Spitfire", element: "Fire", game: "SuperChargers", type: "Dark" },
-  { name: "Dark Hot Streak", element: "Fire", game: "SuperChargers", type: "Dark" },
   { name: "Dark Turbo Charge Donkey Kong", element: "Tech", game: "SuperChargers", type: "Dark" },
+  { name: "Hammer Slam Bowser", element: "Fire", game: "SuperChargers", type: "SuperCharger" },
   { name: "Dark Hammer Slam Bowser", element: "Fire", game: "SuperChargers", type: "Dark" },
+  
+  // SuperChargers - Dark Edition
+  { name: "Dark Hot Streak", element: "Fire", game: "SuperChargers", type: "Dark" },
   { name: "Dark Clown Cruiser", element: "Magic", game: "SuperChargers", type: "Dark" },
   
   // SuperChargers - Legendary
@@ -279,18 +291,16 @@ const skylanders = [
   { name: "Holiday Fiesta", element: "Undead", game: "SuperChargers", type: "Holiday" },
   { name: "Missile-Tow Dive-Clops", element: "Water", game: "SuperChargers", type: "Holiday" },
   
-  // SuperChargers - Eon's Elite
-  { name: "Eon's Elite Eruptor", element: "Fire", game: "Eon's Elite", type: "Eon's Elite" },
-  { name: "Eon's Elite Stealth Elf", element: "Life", game: "Eon's Elite", type: "Eon's Elite" },
-  { name: "Eon's Elite Terrafin", element: "Earth", game: "Eon's Elite", type: "Eon's Elite" },
-  { name: "Eon's Elite Slam Bam", element: "Water", game: "Eon's Elite", type: "Eon's Elite" },
-  { name: "Eon's Elite Voodood", element: "Magic", game: "Eon's Elite", type: "Eon's Elite" },
   { name: "Eon's Elite Zap", element: "Water", game: "Eon's Elite", type: "Eon's Elite" },
 
   // Imaginators (2016) - 31 Senseis + Variants
   { name: "King Pen", element: "Water", game: "Imaginators", type: "Sensei" },
-  { name: "Golden Queen", element: "Magic", game: "Imaginators", type: "Sensei" },
+  { name: "Dark King Pen", element: "Water", game: "Imaginators", type: "Dark" },
+  { name: "Legendary King Pen", element: "Water", game: "Legendary", type: "Legendary" },
+  { name: "Golden Queen", element: "Earth", game: "Imaginators", type: "Sensei" },
+  { name: "Dark Golden Queen", element: "Earth", game: "Imaginators", type: "Dark" },
   { name: "Wolfgang", element: "Undead", game: "Imaginators", type: "Sensei" },
+  { name: "Dark Wolfgang", element: "Undead", game: "Imaginators", type: "Dark" },
   { name: "Chopscotch", element: "Magic", game: "Imaginators", type: "Sensei" },
   { name: "Tae Kwon Crow", element: "Air", game: "Imaginators", type: "Sensei" },
   { name: "Dr. Krankcase", element: "Tech", game: "Imaginators", type: "Sensei" },
@@ -321,13 +331,11 @@ const skylanders = [
   { name: "Legendary Tri-Tip", element: "Earth", game: "Imaginators", type: "Sensei" },
   
   // Imaginators - Legendary Senseis
-  { name: "Legendary King Pen", element: "Water", game: "Legendary", type: "Legendary" },
   { name: "Legendary Pit Boss", element: "Undead", game: "Legendary", type: "Legendary" },
   { name: "Legendary Chopscotch", element: "Magic", game: "Legendary", type: "Legendary" },
   { name: "Legendary Aurora", element: "Light", game: "Legendary", type: "Legendary" },
   
-  // Imaginators - Dark Editions
-  { name: "Dark King Pen", element: "Water", game: "Imaginators", type: "Dark" },
+  // Imaginators - Dark Edition
   { name: "Dark Wolfgang", element: "Undead", game: "Imaginators", type: "Dark" },
   
   // Imaginators - Holiday & Special Editions
